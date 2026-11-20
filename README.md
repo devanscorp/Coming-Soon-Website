@@ -1,6 +1,8 @@
-# Devans Co Pty Ltd — Coming Soon
+# Devans Co Pty Ltd — Coming Soon (V2)
 
-Files:
+This is the updated reddish lavender + gold version of the static coming soon page.
+
+## Files included
 - index.html
 - styles.css
 - script.js
@@ -8,14 +10,15 @@ Files:
 - vercel.json
 
 ## Deploy to Vercel
-1. Create a new GitHub repository.
-2. Add these files to the repository root.
-3. Import the repository into Vercel.
-4. Framework preset: Other.
-5. Build command: leave empty.
-6. Output directory: leave empty.
-7. Deploy.
-8. In Vercel > Project > Settings > Domains, add devanscorp.com.
+1. Upload these files to a GitHub repository.
+2. Import the repository into Vercel.
+3. Select **Other** as the framework preset.
+4. Leave Build Command empty.
+5. Leave Output Directory empty.
+6. Deploy.
+7. Add your custom domain in **Project Settings > Domains**.
 
-## Before publishing
-Replace `hello@devanscorp.com` in `index.html` if you want to use a different contact email.
+## Notes
+- This version uses a redesigned logo inspired by the provided reference.
+- Everything is static and ready for Vercel hosting.
+- Update the copy anytime directly in `index.html`.

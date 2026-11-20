@@ -1,20 +1,44 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="920" height="920" viewBox="0 0 920 920" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="22" y1="14" x2="138" y2="146" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A2F5D"/>
-      <stop offset="1" stop-color="#061426"/>
+    <linearGradient id="lavenderFill" x1="265" y1="142" x2="528" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0C5DE"/>
+      <stop offset="0.45" stop-color="#B06190"/>
+      <stop offset="1" stop-color="#7D315A"/>
     </linearGradient>
-    <linearGradient id="mark" x1="49" y1="44" x2="117" y2="116" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#75D5FF"/>
-      <stop offset="0.45" stop-color="#25A7FF"/>
-      <stop offset="1" stop-color="#1674F5"/>
+    <linearGradient id="burgundyFill" x1="380" y1="190" x2="694" y2="625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C23D7D"/>
+      <stop offset="0.48" stop-color="#8F164F"/>
+      <stop offset="1" stop-color="#69103C"/>
     </linearGradient>
+    <linearGradient id="goldStroke" x1="181" y1="456" x2="748" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A66D00"/>
+      <stop offset="0.15" stop-color="#FFD76B"/>
+      <stop offset="0.35" stop-color="#FFF1BA"/>
+      <stop offset="0.58" stop-color="#D6A230"/>
+      <stop offset="1" stop-color="#B47700"/>
+    </linearGradient>
+    <radialGradient id="starGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(676 218) rotate(90) scale(52)">
+      <stop stop-color="#FFF3C0"/>
+      <stop offset="0.5" stop-color="#FFD56E"/>
+      <stop offset="1" stop-color="#C68916"/>
+    </radialGradient>
+    <filter id="shadow" x="120" y="90" width="690" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#3E1028" flood-opacity="0.20"/>
+    </filter>
   </defs>
 
-  <rect x="8" y="8" width="144" height="144" rx="38" fill="url(#bg)"/>
-  <rect x="8.75" y="8.75" width="142.5" height="142.5" rx="37.25" stroke="white" stroke-opacity=".1" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <path d="M268 147H468C592 147 681 226 681 332C681 438 592 517 468 517H268V147Z" fill="url(#lavenderFill)"/>
+    <path d="M354 228H471C549 228 604 274 604 332C604 390 549 436 471 436H354V228Z" fill="white" fill-opacity="0.92"/>
+    <path d="M274 148H468C592 148 681 227 681 333C681 439 592 518 468 518H274V486H468C570 486 644 424 644 333C644 242 570 180 468 180H274V148Z" fill="#A77493" fill-opacity="0.35"/>
 
-  <path d="M44 43H78.5C102.6 43 120 58.5 120 80C120 101.5 102.6 117 78.5 117H44V43Z" fill="white"/>
-  <path d="M62 61H79C91.2 61 101 68.5 101 80C101 91.5 91.2 99 79 99H62V61Z" fill="#071A31"/>
-  <path d="M50 101L69 56H92L73.2 101H50Z" fill="url(#mark)"/>
+    <path d="M486 263C596 263 681 339 681 436C681 533 596 609 486 609C426 609 376 587 338 548C336 546 334 544 332 542L362 507C365 510 368 513 372 516C402 542 440 558 486 558C569 558 633 504 633 436C633 368 569 314 486 314C462 314 438 319 417 328L392 284C420 270 452 263 486 263Z" fill="url(#burgundyFill)"/>
+    <path d="M486 317C543 317 587 368 587 436C587 504 543 555 486 555C454 555 427 539 410 515C394 492 386 465 386 436C386 407 394 380 410 357C427 333 454 317 486 317Z" fill="white" fill-opacity="0.10"/>
+
+    <path d="M186 519C239 453 310 415 399 404C466 396 536 400 610 416C671 429 726 447 775 469L746 508C697 489 646 473 595 463C528 449 464 445 404 452C325 462 265 493 223 547L186 519Z" fill="url(#goldStroke)"/>
+    <path d="M518 377C567 359 616 350 667 351C724 352 775 366 821 393L785 436C744 415 700 403 651 401C610 399 571 406 532 420L518 377Z" fill="url(#goldStroke)"/>
+
+    <path d="M676 178L688 207L718 219L689 231L677 260L665 231L636 219L665 207L676 178Z" fill="url(#starGold)"/>
+    <path d="M487 624L498 651L526 662L499 673L488 700L477 673L449 662L477 651L487 624Z" fill="url(#starGold)"/>
+  </g>
 </svg>
