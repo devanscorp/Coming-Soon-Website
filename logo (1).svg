@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+  <title id="title">Devans Co Pty Ltd</title>
+  <desc id="desc">Bold interlocking ivory D and gold C monogram over the Devans Co company name</desc>
+  <defs>
+    <linearGradient id="ivory" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.52" stop-color="#F5EFE9"/><stop offset="1" stop-color="#C3B8AD"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A46D16"/><stop offset=".26" stop-color="#FDE69A"/><stop offset=".48" stop-color="#D7A63E"/><stop offset=".72" stop-color="#FFF0AE"/><stop offset="1" stop-color="#B57B1D"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#CF1834"/><stop offset="1" stop-color="#7A0D27"/></linearGradient>
+  </defs>
+  <!-- Monogram D: squared serifs and strong geometric bowl -->
+  <path fill="url(#ivory)" d="M300 92H493C610 92 697 175 697 293S610 493 493 493H300l44-32V124Zm92 55v293h96c85 0 142-61 142-147S573 147 488 147Z" fill-rule="evenodd"/>
+  <!-- Red keystone accent -->
+  <path fill="url(#red)" d="M394 145h98l-98 99z"/>
+  <!-- Golden C embracing the D -->
+  <path fill="url(#gold)" d="M720 219c-42-51-96-76-164-76-105 0-184 77-184 174 0 103 76 183 185 183 68 0 126-28 168-81l-54-42c-26 36-63 53-109 53-67 0-118-47-118-112s51-112 118-112c46 0 81 16 109 50z"/>
+  <!-- Gold cross-swoosh -->
+  <path fill="url(#gold)" d="M185 493c62-129 183-192 365-208 66-6 127-2 184 11-58 1-119 8-179 22-164 37-282 95-370 175z"/>
+  <path d="M188 483c86-106 222-175 365-193" stroke="#FFF2BB" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+  <!-- Wordmark -->
+  <text x="500" y="630" text-anchor="middle" fill="url(#ivory)" font-family="Montserrat,Arial,Helvetica,sans-serif" font-size="100" font-weight="800" letter-spacing="4" textLength="790" lengthAdjust="spacingAndGlyphs">DEVANS CO</text>
+  <path d="M115 690H363M637 690h248" stroke="url(#gold)" stroke-width="3"/>
+  <text x="500" y="702" text-anchor="middle" fill="#F2E6DC" font-family="Montserrat,Arial,Helvetica,sans-serif" font-size="36" font-weight="700" letter-spacing="12">PTY LTD</text>
+</svg>
