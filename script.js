@@ -1,1 +1,1 @@
-console.log("Devans Co Pty Ltd — Coming Soon");
+document.getElementById('year').textContent = new Date().getFullYear();
